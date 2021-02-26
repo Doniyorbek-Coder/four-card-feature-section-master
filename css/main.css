@@ -33,7 +33,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", "Times New Roman", sans-serif;
+  font-family: "Poppins", "Arial", sans-serif;
   font-size: 15px;
   background-color: #fafafa;
   color: #46485c;
@@ -66,14 +66,18 @@ img {
   margin-left: auto;
 }
 .index-features-text {
-  opacity: 0.9;
+  color: rgb(172, 170, 170);
 }
 .index-features-row {
   margin-top: 50px;
 }
+.index-features-col:nth-child(1),
+.index-features-col:nth-child(2) {
+  margin-right: 30px;
+}
 .index-features-card {
-  width: 336px;
-  height: 240px;
+  width: 350px;
+  height: 250px;
   background-color: #ffffff;
   border-radius: 3%;
   overflow: hidden;
@@ -122,7 +126,6 @@ img {
 }
 .index-features-row {
   display: flex;
-  justify-content: space-around;
 }
 .index-features-card-karma {
   margin-top: 30px;
@@ -145,7 +148,7 @@ img {
   margin: 30px;
 }
 .index-features-card-text {
-  opacity: 0.9;
+  color: rgb(172, 170, 170);
   font-size: 13px;
 }
 footer {
